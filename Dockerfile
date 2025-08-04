@@ -14,6 +14,6 @@ RUN bundle install
 
 COPY . .
 
-RUN chmod a+x ./nebibot.rb
-ENTRYPOINT ["ruby", "./nebibot.rb"]
+RUN chmod a+x ./bing.rb
+ENTRYPOINT ["ruby", "./bing.rb"]
 
